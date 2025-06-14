@@ -93,7 +93,7 @@ To join the boxes represented as lists of strings in the top figure you may find
 ```haskell
 zipWith3 :: (a -> b -> c -> d) -> [a] -> [b] -> [c] -> [d]
 ```
-usefule, which, for a ternary function $g$ and three lists $[x_1,x_2,\ldots]$,
+useful, which, for a ternary function $g$ and three lists $[x_1,x_2,\ldots]$,
 $[y_1,y_2,\ldots]$, $[z_1,z_2,\ldots]$ creates a list of values
 $[g(x_1,y_1,z_1),g(x_2,y_2,z_2),\ldots]$.
 
